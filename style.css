@@ -1,0 +1,141 @@
+h1{
+  font-family: "Russo One", sans-serif;
+  font-size: 90px;
+  font-weight: 400;
+  font-style: normal;
+  font-style: italic;
+  text-align: center;
+  color: #e10600;
+  background-color: #fff;
+  margin: 10px;
+  border: 5px solid #f0f0f0;
+  border-radius: 5px;
+}
+
+html{
+  height: 100%;
+  margin: 0;
+}
+
+body{
+  background-color: #e10600;
+  height: 100%;
+  margin: 0;
+}
+
+div{
+  font-family: "Russo One", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.Team-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("TeamPic.jpg");
+  height: 53%;
+  width: 32%;
+  float: left;
+  left: 10px;
+  padding: 0;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: 5px solid #f0f0f0;
+  border-radius: 5%;
+}
+
+.TeamButton{
+  background-color: #fff;
+  border: 5px solid #f0f0f0;
+  text-decoration: none;
+  color: #e10600;
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  border-radius: 5%;
+  transition: 0.5s;
+}
+
+.TeamButton:hover{
+  background-color: #e10600;
+  color: #fff;
+}
+
+.Drivers-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("DriversPic.jpg");
+  height: 53%;
+  width: 32%;
+  position: absolute;
+  left: 33.7%;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px solid #f0f0f0;
+  border-radius: 5%;
+}
+
+.DriversButton{
+  background-color: #fff;
+  border: 5px solid #f0f0f0;
+  text-decoration: none;
+  color: #e10600;
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  border-radius: 5%;
+  transition: 0.5s;
+}
+
+.DriversButton:hover{
+  background-color: #e10600;
+  color: #fff;
+}
+
+.Race-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("RacePic.jpg");
+  height: 53%;
+  width: 32%;
+  position: absolute;
+  float: right;
+  right: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: 5px solid #f0f0f0;
+  border-radius: 5%;
+}
+
+.RaceButton{
+  background-color: #fff;
+  border: 5px solid #f0f0f0;
+  text-decoration: none;
+  color: #e10600;
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  border-radius: 5%;
+  transition: 0.5s;
+}
+
+.RaceButton:hover{
+  background-color: #e10600;
+  color: #fff;
+}
+
+
+footer{
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  text-align: center;
+  font-family: "Zeyada", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
